@@ -8,23 +8,25 @@ An accessibility-friendly Hugo theme, ported from the [original Cupper](https://
 
 <!-- toc -->
 
-- [Demo](#demo)
-- [Minimum Hugo version](#minimum-hugo-version)
-- [Installation](#installation)
-- [Updating](#updating)
-- [Run example site](#run-example-site)
-- [Configuration](#configuration)
-- [Nav Title or Logo](#nav-title-or-logo)
-- [Favicons](#favicons)
-- [Shortcodes](#shortcodes)
-- [Syntax highlighting](#syntax-highlighting)
-- [Enable Table of Contents for a Blog Post](#enable-table-of-contents-for-a-blog-post)
-- [Localization](#localization)
-- [Custom CSS and JS](#custom-css-and-js)
-- [Default to Dark Theme](#default-to-dark-theme)
-- [Non-Git Repo](#non-git-repo)
-- [Getting help](#getting-help)
-- [Credits](#credits)
+1. [Cupper](#cupper)
+   1. [Table of contents](#table-of-contents)
+   2. [Demo](#demo)
+   3. [Minimum Hugo version](#minimum-hugo-version)
+   4. [Installation](#installation)
+   5. [Updating](#updating)
+   6. [Run example site](#run-example-site)
+   7. [Configuration](#configuration)
+   8. [Nav Title or Logo](#nav-title-or-logo)
+   9. [Favicons](#favicons)
+   10. [Shortcodes](#shortcodes)
+   11. [Syntax highlighting](#syntax-highlighting)
+   12. [Enable Table of Contents for a Blog Post](#enable-table-of-contents-for-a-blog-post)
+   13. [Localization](#localization)
+   14. [Custom CSS and JS](#custom-css-and-js)
+   15. [Default to Dark Theme](#default-to-dark-theme)
+   16. [Non-Git Repo](#non-git-repo)
+   17. [Getting help](#getting-help)
+   18. [Credits](#credits)
 
 <!-- tocstop -->
 
@@ -54,7 +56,7 @@ git submodule update --remote --merge
 
 ## Run example site
 
-From the root of `themes/cupper-hugo-theme/exampleSite`:
+From the root of `themes/cupper-hugo-theme/vexioQuest`:
 
 ```
 hugo server --themesDir ../..
@@ -62,7 +64,7 @@ hugo server --themesDir ../..
 
 ## Configuration
 
-Copy `config.yaml` from the [`exampleSite`](https://github.com/zwbetz-gh/cupper-hugo-theme/tree/master/exampleSite), then edit as desired.
+Copy `config.yaml` from the [`vexioQuest`](https://github.com/zwbetz-gh/cupper-hugo-theme/tree/master/vexioQuest), then edit as desired.
 
 ## Nav Title or Logo
 
@@ -110,7 +112,7 @@ You can provide an optional list of custom CSS files, which must be placed insid
 
 You can provide an optional list of custom JS files, which must be placed inside the `static` dir. These will load after the theme JS loads. So, `static/js/custom_01.js` translates to `js/custom_01.js`.
 
-See the [example site config file](https://github.com/zwbetz-gh/cupper-hugo-theme/blob/master/exampleSite/config.yaml) for sample usage.
+See the [example site config file](https://github.com/zwbetz-gh/cupper-hugo-theme/blob/master/vexioQuest/config.yaml) for sample usage.
 
 ## Default to Dark Theme
 
@@ -134,7 +136,7 @@ If your site is **not** a git repo, then set `enableGitInfo` to `false` in your 
 
 ## Getting help
 
-If you run into an issue that isn't answered by this documentation or the [`exampleSite`](https://github.com/zwbetz-gh/cupper-hugo-theme/tree/master/exampleSite), then visit the [Hugo forum](https://discourse.gohugo.io/). The folks there are helpful and friendly. **Before** asking your question, be sure to read the [requesting help guidelines](https://discourse.gohugo.io/t/requesting-help/9132).
+If you run into an issue that isn't answered by this documentation or the [`vexioQuest`](https://github.com/zwbetz-gh/cupper-hugo-theme/tree/master/vexioQuest), then visit the [Hugo forum](https://discourse.gohugo.io/). The folks there are helpful and friendly. **Before** asking your question, be sure to read the [requesting help guidelines](https://discourse.gohugo.io/t/requesting-help/9132).
 
 ## Credits
 
