@@ -1,7 +1,7 @@
 ---
 title: "Bookkeeping Policy"
-date: 2022-12-04T21:05:05-05:00
-tags: [finance]
+date: 2019-02-14T15:36:09-06:00
+tags: ["finance"]
 ---
 
 ## Rules
